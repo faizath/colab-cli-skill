@@ -1,0 +1,21 @@
+{
+  "name": "colab-cli",
+  "version": "1.0.0",
+  "description": "Run GPU/TPU jobs on Google Colab from the terminal with the colab CLI, and survive the failure modes that silently kill multi-hour runs.",
+  "author": {
+    "name": "Faiz A"
+  },
+  "repository": "https://github.com/faizath/colab-cli-skill",
+  "homepage": "https://github.com/faizath/colab-cli-skill",
+  "license": "MIT",
+  "keywords": [
+    "colab",
+    "google-colab",
+    "gpu",
+    "tpu",
+    "training",
+    "remote-compute",
+    "machine-learning",
+    "cli"
+  ]
+}

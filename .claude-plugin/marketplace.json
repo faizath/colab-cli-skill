@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "colab-cli-skill",
+  "description": "The colab-cli skill: drive Google Colab GPU/TPU VMs from the terminal.",
+  "owner": {
+    "name": "Faiz A"
+  },
+  "plugins": [
+    {
+      "name": "colab-cli",
+      "source": "./",
+      "description": "Run GPU/TPU jobs on Google Colab from the terminal with the colab CLI: provisioning, detached multi-hour training, file sync, orphan recovery, and the failure modes that silently kill long runs.",
+      "category": "productivity"
+    }
+  ]
+}
